@@ -4,12 +4,12 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
   xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06" 
   PolicySchemaVersion="0.3.0.0" 
-  TenantId="wso3.onmicrosoft.com"
+  TenantId="choreodevb2c.onmicrosoft.com"
   PolicyId="B2C_1A_TrustFrameworkExtensions" 
-  PublicPolicyUri="http://wso3.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions">
+  PublicPolicyUri="http://choreodevb2c.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions">
   
   <BasePolicy>
-    <TenantId>wso3.onmicrosoft.com</TenantId>
+    <TenantId>choreodevb2c.onmicrosoft.com</TenantId>
     <PolicyId>B2C_1A_TrustFrameworkBase</PolicyId>
   </BasePolicy>
  <BuildingBlocks>
@@ -37,12 +37,12 @@
       <TechnicalProfiles>
         <TechnicalProfile Id="login-NonInteractive">
           <Metadata>
-            <Item Key="client_id">e0611aae-82ac-4c69-b565-f116858b1988</Item>
-            <Item Key="IdTokenAudience">e0611aae-82ac-4c69-b565-f116858b1988</Item>
+            <Item Key="client_id">75102319-c590-498b-a3d5-aa971a22a518</Item>
+            <Item Key="IdTokenAudience">75102319-c590-498b-a3d5-aa971a22a518</Item>
           </Metadata>
           <InputClaims>
-            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="9f56cd24-0c66-4551-b5c2-d3a12249c6d9" />
-            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="9f56cd24-0c66-4551-b5c2-d3a12249c6d9" />
+            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="75102319-c590-498b-a3d5-aa971a22a518" />
+            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="75102319-c590-498b-a3d5-aa971a22a518" />
           </InputClaims>
         </TechnicalProfile>
       </TechnicalProfiles>
